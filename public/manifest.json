@@ -1,0 +1,27 @@
+
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto Skipper",
+  "version": "1.0.0",
+  "description": "Automatically clicks available Skip Ads buttons on YouTube.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "action": {
+    "default_title": "YouTube Auto Skipper"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
