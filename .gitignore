@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#Release Zip
+youtube-auto-skipper-v1.0.0.zip
