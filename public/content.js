@@ -1,0 +1,1 @@
+console.log("YouTube Auto Skipper: Content script loaded!");
